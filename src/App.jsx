@@ -9,15 +9,15 @@ import Layout from './Layouts/Layout'
 
 const router = createBrowserRouter(
   [
-    {path : '', element :<Layout />, children : [
+    {path : '/React-First-App', element :<Layout />, children : [
       
-      {path : '', element : <Home />},
+      {path : '/React-First-App', element : <Home />},
 
-      {path : '/about', element : <About />},
+      {path : '/React-First-App/about', element : <About />},
 
-      {path : '/portfolio', element : <Portfolio />},
+      {path : '/React-First-App/portfolio', element : <Portfolio />},
 
-      {path : '/contact', element : <Contact />},
+      {path : '/React-First-App/contact', element : <Contact />},
 
       {path : '*', element : <div className='vh-100'>
         <h2 className='text-black-50 text-center mt-5 pt-5 fw-bold fs-1'>Not Found</h2>
