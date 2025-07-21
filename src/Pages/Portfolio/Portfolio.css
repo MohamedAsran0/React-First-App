@@ -1,0 +1,25 @@
+#portfolio {
+    margin-top: 80px;
+}
+
+#portfolio h2,
+#portfolio i {
+    color: #2C3E50;
+}
+
+#portfolio .container .line {
+    background-color: #2C3E50;
+}
+
+#portfolio .card figcaption {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(41, 177, 151, 0.8);
+    opacity: 0;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#portfolio .card:hover figcaption {
+    opacity: 1;
+}

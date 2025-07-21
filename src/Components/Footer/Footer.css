@@ -1,0 +1,14 @@
+.footer-bg-1 {
+    background-color: #2C3E50;
+}
+
+.footer-bg-2 {
+    background-color: #1A252F;
+}
+
+.footer-first-section-middle ul li{
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}

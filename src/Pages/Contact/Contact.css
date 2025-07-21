@@ -1,0 +1,53 @@
+#contact {
+    margin-top: 80px;
+}
+
+#contact h2,
+#contact i {
+    color: #2C3E50;
+}
+
+#contact .container .line {
+    background-color: #2C3E50;
+}
+
+#contact .form {
+    width: 50%;
+}
+
+#contact .form input {
+    padding: 15px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#contact .form label {
+    color: #1ABC9C;
+    position: relative;
+    top: 50px;
+    transition: all 0.4s ease-out;
+}
+
+#contact .form button {
+    color: white;
+    background-color: #1ABC9C;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.form-control:focus {
+    border-color: #dee2e6;
+    box-shadow: 0 0 0 .25rem rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 768px) {
+    #contact .form {
+        width: 100%;
+    }
+}
